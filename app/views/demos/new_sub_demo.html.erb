@@ -1,0 +1,5 @@
+<%= form_with model: @sub_demo, url: create_sub_demo_demo_url(id: params[:id]) do |f| %>
+	<%= f.label :sub_demo %>
+	<%= f.text_field :sub_demo %>
+	<%= f.submit %>
+<% end %>

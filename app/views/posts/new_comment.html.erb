@@ -1,0 +1,5 @@
+<%= form_with model: @name, url: create_comment_url(id: params[:id]) do |f| %>
+	<%= f.label :name %>
+	<%= f.text_field :name %>
+	<%= f.submit %>
+<% end %>
